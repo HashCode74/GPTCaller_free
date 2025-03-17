@@ -1,9 +1,7 @@
 # GPTCaller_free
-This is the free version of GPTCaller.
-
 This application provides a client interface for interacting with locally hosted Large Language Models (LLMs) via API calls.  It also supports integration with OpenAI's ChatGPT if you have an API key.
 
-![screen shot](./images/gpt_caller_main_screenshot.png)
+![Main Screen Shot](images/gpt_caller_main_screenshot.png)
 
 ## Overview
 This client allows you to easily connect to and query various LLMs, including those run locally using tools like [Ollama](https://ollama.com/).  It provides a streamlined interface for managing connections, viewing chat history, and querying models with simple text or documents.
@@ -12,7 +10,6 @@ This client allows you to easily connect to and query various LLMs, including th
 *   **LLM Connection Management:** Easily add, edit, and manage connections to different LLM APIs.
 *   **Chat History:**  View and manage your conversation history with each LLM.  Export history to `.md` files for archiving or further analysis.
 *   **Document Querying:**  Provide a simple document as context for your queries, allowing the LLM to answer questions based on the document's content.
-*   **Ollama Support:** Seamlessly integrate with Ollama to download and run various LLM models locally.
 
 ## Getting Started
 
@@ -22,7 +19,7 @@ This client allows you to easily connect to and query various LLMs, including th
 *   An LLM server (e.g., Ollama, a self-hosted model, or access to OpenAI's API)
 ## Installation
 1. **Download the DMG:**
-   Download the latest DMG file from the [Releases page](https://github.com/[your username]/[your repository]/releases).
+   Download the latest DMG file from the [Releases page](https://github.com/HashCode74/GPTCaller_free).
 
 2. **Mount the DMG:**
    Double-click the downloaded DMG file to mount it.
@@ -34,7 +31,7 @@ This client allows you to easily connect to and query various LLMs, including th
    Open the application from your Applications folder. You may be prompted to confirm that you want to open an application downloaded from the internet.
 
 **Important Note:**
-*   If you encounter any issues during installation, please check the [Troubleshooting](TROUBLESHOOTING.md) section or create an issue on the [GitHub repository](https://github.com/[your username]/[your repository]/issues).
+*   This app does not require any personal information.
 
 ## Configuration
 
@@ -51,21 +48,15 @@ To configure the application, follow these steps:
 
 **Note:** After changing these settings, click **Save** to apply the changes. A restart is not required; the settings will be applied immediately.
 
-![New Server](./images/new_server.png)
-![Server Setting](./images/server_setting.png)
-![Server List](./images/server_list.png)
-### Using ChatGPT
-If you have an OpenAI API key, you can add a connection of type "OpenAI" and enter your API key.  The application will then use the OpenAI API for your queries.
+![New Server](images/new_server.png)
+![Server Setting](images/server_setting.png)
+![Server List](images/server_list.png)
 
 ## Features in Detail
-
+#### Using ChatGPT
+If you have an OpenAI API key, you can add a connection of type "OpenAI" and enter your API key.  The application will then use the OpenAI API for your queries.
 #### Chat History
 The application stores your chat history for each LLM connection. You can view, delete, and export your chat history to `.md` files for archiving or further analysis.
-
 #### Document Querying
 You can provide a simple document (e.g., a `.txt` or `.pdf` file) as context for your queries. The application will send the document along with your query to the LLM, allowing it to answer questions based on the document's content.
-
-## Acknowledgements
-*   [Ollama](https://ollama.com/) - For providing a simple way to run LLMs locally.
-*   [OpenAI](https://openai.com/) - For providing access to powerful language models.
 
