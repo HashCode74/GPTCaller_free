@@ -51,9 +51,9 @@ To configure the application, follow these steps:
 
 **Note:** After changing these settings, click **Save** to apply the changes. A restart is not required; the settings will be applied immediately.
 
-![[new_server.png]]
-![[server_setting.png]]
-![[server_list.png]]
+![New Server](new_server.png)
+![Server Setting](server_setting.png)
+![Server List](server_list.png)
 ### Using ChatGPT
 If you have an OpenAI API key, you can add a connection of type "OpenAI" and enter your API key.  The application will then use the OpenAI API for your queries.
 
