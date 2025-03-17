@@ -1,4 +1,4 @@
-# GPTCaller (free)
+# GPTCaller (Free-Edition)
 This application provides a client interface for interacting with locally hosted Large Language Models (LLMs) via API calls.  It also supports integration with OpenAI's ChatGPT if you have an API key.
 
 ![Main Screen Shot](images/gpt_caller_main_screenshot.png)
