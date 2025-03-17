@@ -51,8 +51,8 @@ To configure the application, follow these steps:
 
 **Note:** After changing these settings, click **Save** to apply the changes. A restart is not required; the settings will be applied immediately.
 
-![[CleanShot 2025-03-14 at 10.56.17@2x.png]]
-![[CleanShot 2025-03-14 at 10.55.33@2x.png]]
+![[new_server.png]]
+![[server_setting.png]]
 ![[server_list.png]]
 ### Using ChatGPT
 If you have an OpenAI API key, you can add a connection of type "OpenAI" and enter your API key.  The application will then use the OpenAI API for your queries.
@@ -68,3 +68,4 @@ You can provide a simple document (e.g., a `.txt` or `.pdf` file) as context for
 ## Acknowledgements
 *   [Ollama](https://ollama.com/) - For providing a simple way to run LLMs locally.
 *   [OpenAI](https://openai.com/) - For providing access to powerful language models.
+
