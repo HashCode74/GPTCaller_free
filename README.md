@@ -3,7 +3,7 @@ This is the free version of GPTCaller.
 
 This application provides a client interface for interacting with locally hosted Large Language Models (LLMs) via API calls.  It also supports integration with OpenAI's ChatGPT if you have an API key.
 
-![app_screen_shot.png]
+![gpt_caller_main.png]
 
 ## Overview
 This client allows you to easily connect to and query various LLMs, including those run locally using tools like [Ollama](https://ollama.com/).  It provides a streamlined interface for managing connections, viewing chat history, and querying models with simple text or documents.
